@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-DataBase = pd.read_csv('DataBases/adult_census.csv')
+DataBase = pd.read_csv('DataBases/adult.csv')
 
 ValoresAusentes = DataBase.isna()
 print(ValoresAusentes)
